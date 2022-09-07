@@ -39,7 +39,7 @@ struct API {
                 print(data)
                 
                 // 1. Convert JSON response to a dictionary
-                let dataDictionary = try! JSONSerialization.jsonObject(with: <#T##Data#>, options: []) as! [String: Any]
+                let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
                 
                 // 2. Grab the businesses data and convert it to an array of dictionaries
                 //    for each restaurant
