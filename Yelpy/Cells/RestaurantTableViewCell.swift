@@ -12,6 +12,11 @@ class RestaurantTableViewCell: UITableViewCell {
 
     @IBOutlet weak var restaurantImage: UIImageView!
     @IBOutlet weak var restaurantLabel: UILabel!
+    @IBOutlet weak var restaurantFoodType: UILabel!
+    @IBOutlet weak var restaurantRatingsCount: UILabel!
+    @IBOutlet weak var restaurantNumber: UILabel!
+    @IBOutlet weak var restaurantRating: UIImageView!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -23,5 +28,4 @@ class RestaurantTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
 }

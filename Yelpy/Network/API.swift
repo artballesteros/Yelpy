@@ -43,12 +43,11 @@ struct API {
                 
                 // 2. Grab the businesses data and convert it to an array of dictionaries
                 //    for each restaurant
-                let restaurants = dataDictionary["businesses"] as! [[String: Any]]
+                let restaurants = dataDictionary["businesses"] as! [[String : Any]]
         
                 // 3. Completion is an excaping method which allows the data to be used
                 //    outside of the closure
                 return completion(restaurants)
-                
                 }
             }
         
